@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+                            http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+  <!-- 1. 首页资金中心运营驾驶舱 (唯一包含 image) -->
+  <url>
+    <loc>https://26-js-fnd-bid.softwarelink.net/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://26-js-fnd-bid.softwarelink.net/docs/assets/dashboard-preview.png</image:loc>
+      <image:title>江苏省省级机关住房资金管理中心系统控制台预览</image:title>
+    </image:image>
+  </url>
+  <!-- 2. 公开招标公告全文页 -->
+  <url>
+    <loc>https://26-js-fnd-bid.softwarelink.net/tender</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- 3. 用户登录鉴权页 -->
+  <url>
+    <loc>https://26-js-fnd-bid.softwarelink.net/login</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <!-- 4. 机关资金归集与单位账户中枢 -->
+  <url>
+    <loc>https://26-js-fnd-bid.softwarelink.net/collection</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- 5. 银企直联对账与清算结算中心 -->
+  <url>
+    <loc>https://26-js-fnd-bid.softwarelink.net/reconciliation</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- 6. 公积金反欺诈与个贷资产风控 -->
+  <url>
+    <loc>https://26-js-fnd-bid.softwarelink.net/anti-fraud</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- 7. 系统总控与等保安全审计 -->
+  <url>
+    <loc>https://26-js-fnd-bid.softwarelink.net/system</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

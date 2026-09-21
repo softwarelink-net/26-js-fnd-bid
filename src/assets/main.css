@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --banner-h: 40px;
+  --fund-navy: #1e1b4b;
+  --fund-deep: #082f49;
+  --fund-sky: #0369a1;
+  --fund-teal: #0d9488;
+  --fund-ice: #ecfeff;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 40px;
+  font-family: 'Source Han Sans SC', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: linear-gradient(165deg, #0b1228 0%, #0c4a6e 42%, #0f766e 100%);
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer components {
+  .panel-card {
+    @apply rounded-xl bg-white/95 shadow-panel border border-slate-200/70 backdrop-blur;
+  }
+  .metric-chip {
+    @apply inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-xs font-semibold;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-sky-700 px-4 py-2 text-sm font-semibold text-white shadow hover:bg-sky-600 transition;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-sm text-slate-700 hover:bg-slate-50 transition;
+  }
+}
